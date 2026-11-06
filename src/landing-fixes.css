@@ -1,0 +1,32 @@
+.landing {
+  overflow-x: clip;
+}
+
+.feature-link {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  font-size: 9px;
+  color: var(--lp);
+  font-weight: 700;
+}
+
+.landing-hero h1 em::before {
+  content: " ";
+}
+
+.workflow-cards article > div span,
+.feature-grid article > i {
+  overflow: hidden;
+}
+
+@media (max-width: 480px) {
+  .landing-hero h1 {
+    word-break: keep-all;
+    font-size: 25px;
+  }
+
+  .landing-hero h1 em {
+    display: inline;
+  }
+}
